@@ -1,6 +1,11 @@
 Import a cluster to Palette via API
 
-```
+setup: 
+
+virtualenv .
+. bin/activate
+pip install -r requirements.txt
+
 usage: palette_import_cluster.py [-h] [-a API_ENDPOINT] -u PROJECT_UID -k API_KEY -t {aws,azure,edge-native,edge,gcp,generic,libvirt,maas,openstack,vsphere} [-v] [--version] cluster_name
 
 positional arguments:
@@ -19,4 +24,3 @@ options:
   -v, --verbose         Verbosity (-v, -vv, etc)
   --version             show program's version number and exit
 
-```
