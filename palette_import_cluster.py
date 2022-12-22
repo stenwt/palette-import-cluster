@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Copyright (c) 2022, Spectro Cloud
+All rights reserved
 Import a cluster to Spectro Cloud Palette, and return an import manifest
 """
 
