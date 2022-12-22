@@ -1,4 +1,5 @@
 Import a cluster to Palette via API
+Returns an import cluster manifest on stdout
 
 setup: 
 
