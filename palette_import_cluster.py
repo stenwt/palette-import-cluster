@@ -7,7 +7,7 @@ Import a cluster to Spectro Cloud Palette, and return an import manifest
 
 __author__ = "Sten Turpin"
 __version__ = "0.1.0"
-__license__ = "MIT"
+__license__ = "GPL 3.0"
 
 import argparse
 import requests
